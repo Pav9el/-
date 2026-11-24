@@ -22,3 +22,4 @@ git merge design
 git log --oneline --graph
 git push
 ```
+Практическая работа по Git, веткам и GitHub.
