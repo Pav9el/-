@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Учебный клуб</title>
+</head>
+<body>
+
+<header>
+  <p>Учебный сайт Балдашкина Павла и Мастерова Дмитрия</p>
+  <header>
+    <nav>
+       <ul>
+          <li><a href="index.html">Обо мне</a></li>
+          <li><a href="hobby.html">Мои увлечения</a></li>
+          <li><a href="college.html">Мой колледж</a></li>
+          <li><a href="season.html">Любимое время года</a></li>
+          <li><a href="schedule.html">Расписание</a></li>
+          <li><a href="application.html">Учебнаяя заявка</a></li>
+          <li><a href="club.html">Клуб</a></li>
+          
+       </ul>
+    </nav>
+ </header>
+
+<main>
+  <h1>Учебный клуб</h1>
+
+  <section aria-labelledby="about-club">
+    <h2 id="about-club">О клубе</h2>
+    <p>Учебный клуб помогает студентам практиковаться в создании веб-страниц.</p>
+    <p>На встречах участники изучают HTML, Git и основы веб-разработки.</p>
+  </section>
+
+  <article>
+    <h2>Новость клуба</h2>
+    <p>В клубе открыта новая учебная встреча по семантическому HTML.</p>
+    <p>Участники смогут потренироваться создавать страницы с понятной структурой.</p>
+  </article>
+
+  <section aria-labelledby="meetings">
+    <h2 id="meetings">Расписание встреч</h2>
+
+    <table border="1">
+      <caption>Таблица встреч учебного клуба</caption>
+      <thead>
+        <tr>
+          <th scope="col">День</th>
+          <th scope="col">Тема</th>
+          <th scope="col">Кабинет</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Вторник</th>
+          <td>HTML</td>
+          <td>205</td>
+        </tr>
+        <tr>
+          <th scope="row">Четверг</th>
+          <td>Git</td>
+          <td>210</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section aria-labelledby="club-form">
+    <h2 id="club-form">Заявка в учебный клуб</h2>
+
+    <p>Данные вымышленные и не сохраняются.</p>
+
+    <form action="club.html" method="get">
+      <p>
+        <label for="name">Имя</label>
+        <input id="name" name="name" type="text" required>
+      </p>
+
+      <p>
+        <label for="topic">Направление</label>
+        <select id="topic" name="topic" required>
+          <option value="">Выберите направление</option>
+          <option value="html">HTML</option>
+          <option value="git">Git</option>
+        </select>
+      </p>
+
+      <p>
+        <input id="reminder" name="reminder" type="checkbox" value="yes">
+        <label for="reminder">Добавить учебное напоминание</label>
+      </p>
+
+      <button type="submit">Отправить заявку</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <p>Автор: Балдашкин Павел. Учебная практика УП.09.</p>
+</footer>
+
+</body>
+</html>
